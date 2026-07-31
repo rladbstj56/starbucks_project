@@ -1,19 +1,19 @@
-# Starbucks CRM Marketing Funnel Analysis
+# 스타벅스 CRM 마케팅 퍼널 분석
 
 스타벅스 리워드 앱의 고객 이벤트 로그를 바탕으로 **어떤 고객에게, 어떤 오퍼를, 어떤 채널로 전달해야 실제 구매 행동으로 이어지는지** 분석한 CRM 마케팅 퍼널 분석 프로젝트입니다.
 
 원본 이벤트 로그를 그대로 집계하지 않고, `offer received` 이후의 `offer viewed`, `offer completed` 이벤트를 고객-오퍼-수신시점 단위로 재구성해 마케팅 퍼널을 만들었습니다. 이후 오퍼 유형, 고객 세그먼트, 채널 조합별 반응 차이를 비교하고 CRM 운영 전략으로 연결했습니다.
 
-## Links
+## 주요 링크
 
 | 구분 | 링크 |
 |---|---|
-| Tableau Dashboard | [Tableau Public](https://public.tableau.com/app/profile/yoonseo.kim2044/viz/_15_17749189412390/1) |
-| Final Notebooks | [submit/Final](submit/Final) |
-| Project Docs | [docs](docs) |
-| My Contribution | [docs/myun-contribution.md](docs/myun-contribution.md) |
+| Tableau 대시보드 | [Tableau Public](https://public.tableau.com/app/profile/yoonseo.kim2044/viz/_15_17749189412390/1) |
+| 최종 노트북 | [submit/Final](submit/Final) |
+| 프로젝트 문서 | [docs](docs) |
+| 본인 기여 정리 | [docs/myun-contribution.md](docs/myun-contribution.md) |
 
-## Project Overview
+## 프로젝트 개요
 
 | 항목 | 내용 |
 |---|---|
@@ -24,7 +24,7 @@
 | 핵심 질문 | 오퍼 수신 이후 열람과 완료를 높이는 고객, 오퍼, 채널 조건은 무엇인가 |
 | 주요 역할 | 채널 분석, 통계 검정, 효과크기 해석, 최종 코드 취합 및 고도화 |
 
-## Business Problem
+## 문제 정의
 
 마케팅 캠페인의 성과를 단순 완료율로만 보면 오퍼를 실제로 보고 구매한 고객과, 오퍼를 보지 않았지만 원래 구매했을 가능성이 있는 고객이 섞입니다. 이 경우 캠페인 효과를 과대평가하거나 불필요한 리워드 비용을 발생시킬 수 있습니다.
 
@@ -40,7 +40,7 @@
 
 이 지표 분해를 통해 “성과가 좋아 보이는 오퍼”와 “실제로 노출 효과가 있었던 오퍼”를 구분했습니다.
 
-## Key Findings
+## 주요 분석 결과
 
 1. **Social 채널은 열람률에 가장 강한 신호를 보였습니다.**  
    Social 포함 여부와 열람 여부의 관계에서 Cramer's V가 약 0.49로 나타나, 개별 채널 중 열람 단계에 가장 큰 영향을 주는 신호로 해석했습니다.
@@ -57,7 +57,7 @@
 5. **미열람 완료 고객은 리워드 비용 효율 점검 대상입니다.**  
    `completed_without_prior_view`는 오퍼를 보지 않았지만 완료 조건을 만족한 경우입니다. 이 고객군은 오퍼가 없어도 구매했을 가능성이 있어, 캠페인 비용 최적화 관점에서 별도 관리가 필요합니다.
 
-## My Contribution
+## 담당 역할과 기여
 
 이 프로젝트에서 제가 담당한 핵심 업무는 **채널 분석과 최종 분석 코드 고도화**입니다.
 
@@ -70,10 +70,10 @@
 
 고객 세그먼트 분석, 오즈비 검정 전체, 오퍼 타입별 분석 전체는 팀 분석에 포함되어 있으나 제 단독 기여로 표시하지 않았습니다. 자세한 기여 구분은 [docs/myun-contribution.md](docs/myun-contribution.md)에 정리했습니다.
 
-## Data Pipeline
+## 분석 파이프라인
 
 ```text
-Raw Data
+원본 데이터
   portfolio.csv / profile.csv / transcript.csv
         ↓
 01_preprocessed_final.ipynb
@@ -92,7 +92,7 @@ final_eda.csv
 funnel_instance.csv / funnel_instance_full.csv / tableau_df_final.csv
 ```
 
-## Repository Structure
+## 저장소 구조
 
 ```text
 .
@@ -106,7 +106,7 @@ funnel_instance.csv / funnel_instance_full.csv / tableau_df_final.csv
 └── README.md
 ```
 
-## Final Notebooks
+## 최종 노트북
 
 | 순서 | 파일 | 역할 |
 |---:|---|---|
@@ -116,7 +116,7 @@ funnel_instance.csv / funnel_instance_full.csv / tableau_df_final.csv
 
 재현 목적이면 루트의 `Final` 폴더가 아니라 [submit/Final](submit/Final)을 기준으로 실행하는 것이 안전합니다.
 
-## How to Run
+## 실행 방법
 
 이 프로젝트는 `uv` 기반 Python 환경을 사용합니다.
 
@@ -135,7 +135,7 @@ submit/Final/03_analysis_final.ipynb
 
 각 노트북은 이전 단계 산출물을 다음 단계 입력으로 사용하므로 순서대로 실행해야 합니다.
 
-## Tech Stack
+## 사용 기술
 
 - Python 3.13
 - pandas, numpy
@@ -144,7 +144,7 @@ submit/Final/03_analysis_final.ipynb
 - Jupyter Notebook
 - Tableau Public
 
-## Documentation
+## 문서 안내
 
 | 문서 | 내용 |
 |---|---|
@@ -155,7 +155,7 @@ submit/Final/03_analysis_final.ipynb
 | [docs/limitations.md](docs/limitations.md) | 분석 한계와 후속 개선 방향 |
 | [docs/myun-contribution.md](docs/myun-contribution.md) | 개인 기여와 팀 공통 작업 구분 |
 
-## Limitations
+## 한계와 후속 개선 방향
 
 - 이 분석은 관측 로그 기반 분석이므로 채널이나 오퍼가 구매 행동을 직접 유발했다고 단정할 수 없습니다.
 - 오퍼별 채널 조합이 고정되어 있어 채널 수 효과와 특정 채널 효과가 완전히 독립적으로 분리되지는 않습니다.
