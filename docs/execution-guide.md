@@ -1,6 +1,6 @@
 # 실행 순서
 
-최종 노트북은 [submit/Final](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/submit/Final)을 기준으로 실행합니다. 이 폴더의 노트북은 [submit/dataset](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/submit/dataset)을 상대 경로로 읽습니다.
+최종 노트북은 [submit/Final](/Users/yoonseokim/starbucks_project/submit/Final)을 기준으로 실행합니다. 이 폴더의 노트북은 [submit/dataset](/Users/yoonseokim/starbucks_project/submit/dataset)을 상대 경로로 읽습니다.
 
 ## 환경 준비
 
@@ -20,9 +20,9 @@ uv run jupyter notebook
 
 ## 실행 순서
 
-1. [submit/Final/01_preprocessed_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/submit/Final/01_preprocessed_final.ipynb)
-2. [submit/Final/02_eda_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/submit/Final/02_eda_final.ipynb)
-3. [submit/Final/03_analysis_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/submit/Final/03_analysis_final.ipynb)
+1. [submit/Final/01_preprocessed_final.ipynb](/Users/yoonseokim/starbucks_project/submit/Final/01_preprocessed_final.ipynb)
+2. [submit/Final/02_eda_final.ipynb](/Users/yoonseokim/starbucks_project/submit/Final/02_eda_final.ipynb)
+3. [submit/Final/03_analysis_final.ipynb](/Users/yoonseokim/starbucks_project/submit/Final/03_analysis_final.ipynb)
 
 ## 각 노트북의 역할
 
@@ -34,7 +34,7 @@ uv run jupyter notebook
 
 ## 경로 주의사항
 
-루트 [Final](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Final)의 노트북은 일부 입력 경로가 현재 루트 데이터 구조와 맞지 않을 수 있습니다. 재현 목적이면 `submit/Final`을 기준으로 실행하는 편이 안전합니다.
+루트 [Final](/Users/yoonseokim/starbucks_project/Final)의 노트북은 일부 입력 경로가 현재 루트 데이터 구조와 맞지 않을 수 있습니다. 재현 목적이면 `submit/Final`을 기준으로 실행하는 편이 안전합니다.
 
 특히 루트 `dataset`의 원본 CSV는 아래에 있습니다.
 

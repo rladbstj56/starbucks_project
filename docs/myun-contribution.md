@@ -1,16 +1,16 @@
 # Myun 개인 기여 정리
 
-이 문서는 [Myun_EDA](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA) 폴더를 기준으로 본인 작업과 팀 공통/복사 작업을 구분합니다.
+이 문서는 [Myun_EDA](/Users/yoonseokim/starbucks_project/Myun_EDA) 폴더를 기준으로 본인 작업과 팀 공통/복사 작업을 구분합니다.
 
 ## 확정 본인 작업으로 볼 수 있는 파일
 
 | 파일 | 역할 | 근거 |
 |---|---|---|
-| [eda_myun.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/01_personal_eda/eda_myun.ipynb) | 오퍼별 인지율/전환율, 채널 영향 분석 | 오퍼별 `aware_rate`, `conversion_rate`, 채널별 검정과 해석 포함 |
-| [eda_myun_draft.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/01_personal_eda/eda_myun_draft.ipynb) | 개인 EDA 초안 | “마케팅 효과 좋았던/별로였던 오퍼”, 소셜 채널 가설 탐색 |
-| [analysis_final_mydraft.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/analysis_final_mydraft.ipynb) | 최종 코드 취합 후 개인 분석 추가 | `여기부터 내 코드` 마크다운 이후가 본인 작업 |
-| [analysis_final_mine.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/analysis_final_mine.ipynb) | 채널별/채널수별 분석 정리본 | 프로젝트 내 채널 분석 전체가 본인 작업 |
-| [03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb) | 프로젝트 종료 후 채널 분석 고도화본 | 열람률/열람시간 영향이 채널 수인지 특정 채널인지 재점검 |
+| [eda_myun.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/01_personal_eda/eda_myun.ipynb) | 오퍼별 인지율/전환율, 채널 영향 분석 | 오퍼별 `aware_rate`, `conversion_rate`, 채널별 검정과 해석 포함 |
+| [eda_myun_draft.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/01_personal_eda/eda_myun_draft.ipynb) | 개인 EDA 초안 | “마케팅 효과 좋았던/별로였던 오퍼”, 소셜 채널 가설 탐색 |
+| [analysis_final_mydraft.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/analysis_final_mydraft.ipynb) | 최종 코드 취합 후 개인 분석 추가 | `여기부터 내 코드` 마크다운 이후가 본인 작업 |
+| [analysis_final_mine.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/analysis_final_mine.ipynb) | 채널별/채널수별 분석 정리본 | 프로젝트 내 채널 분석 전체가 본인 작업 |
+| [03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb) | 프로젝트 종료 후 채널 분석 고도화본 | 열람률/열람시간 영향이 채널 수인지 특정 채널인지 재점검 |
 
 ## 사용자 확인 필요 파일
 
@@ -18,7 +18,7 @@
 
 | 파일 | 현재 확인된 내용 | 확인 필요 이유 |
 |---|---|---|
-| [analysis_offer_df.csv](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/01_personal_eda/analysis_offer_df.csv) | 오퍼별 채널/성과 요약 테이블 | `eda_myun_draft.ipynb`의 `analysis_df` 저장 코드에서 나온 것으로 보이나, 현재 저장 코드는 주석 처리되어 있음 |
+| [analysis_offer_df.csv](/Users/yoonseokim/starbucks_project/Myun_EDA/01_personal_eda/analysis_offer_df.csv) | 오퍼별 채널/성과 요약 테이블 | `eda_myun_draft.ipynb`의 `analysis_df` 저장 코드에서 나온 것으로 보이나, 현재 저장 코드는 주석 처리되어 있음 |
 
 ## 본인 핵심 기여
 
@@ -59,9 +59,9 @@
 
 ### 5. 프로젝트 종료 후 채널 분석 고도화
 
-[03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb)는 프로젝트 종료 후 개인적으로 고도화한 파일입니다.
+[03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb)는 프로젝트 종료 후 개인적으로 고도화한 파일입니다.
 
-기존 [03_analysis_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/03_analysis_final.ipynb)와 비교했을 때 핵심 추가점은 채널 분석 구간 앞에 아래 확인 셀이 추가된 것입니다.
+기존 [03_analysis_final.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/03_analysis_final.ipynb)와 비교했을 때 핵심 추가점은 채널 분석 구간 앞에 아래 확인 셀이 추가된 것입니다.
 
 - `funnel_metrics(funnel, ['offer_type', 'channel_count'])`
 - `funnel.info()`

@@ -19,9 +19,9 @@ Myun_EDA/
 
 | 파일 | 설명 |
 |---|---|
-| [eda_myun.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/01_personal_eda/eda_myun.ipynb) | 오퍼별 인지율, 전환율, 채널 영향 분석 |
-| [eda_myun_draft.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/01_personal_eda/eda_myun_draft.ipynb) | 초기 분석 초안 |
-| [analysis_offer_df.csv](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/01_personal_eda/analysis_offer_df.csv) | 오퍼별 채널/성과 요약 산출물 |
+| [eda_myun.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/01_personal_eda/eda_myun.ipynb) | 오퍼별 인지율, 전환율, 채널 영향 분석 |
+| [eda_myun_draft.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/01_personal_eda/eda_myun_draft.ipynb) | 초기 분석 초안 |
+| [analysis_offer_df.csv](/Users/yoonseokim/starbucks_project/Myun_EDA/01_personal_eda/analysis_offer_df.csv) | 오퍼별 채널/성과 요약 산출물 |
 
 ## 02_channel_analysis
 
@@ -29,10 +29,10 @@ Myun_EDA/
 
 | 파일 | 설명 |
 |---|---|
-| [analysis_final_mydraft.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/analysis_final_mydraft.ipynb) | `여기부터 내 코드` 마크다운 이후가 본인 작업 |
-| [analysis_final_mine.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/analysis_final_mine.ipynb) | 채널별/채널수별 분석 정리본 |
-| [03_analysis_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/03_analysis_final.ipynb) | 개인 분석이 반영된 통합 분석 파일 |
-| [03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb) | 프로젝트 종료 후 채널 수 효과와 특정 채널 효과를 재점검한 고도화본 |
+| [analysis_final_mydraft.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/analysis_final_mydraft.ipynb) | `여기부터 내 코드` 마크다운 이후가 본인 작업 |
+| [analysis_final_mine.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/analysis_final_mine.ipynb) | 채널별/채널수별 분석 정리본 |
+| [03_analysis_final.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/03_analysis_final.ipynb) | 개인 분석이 반영된 통합 분석 파일 |
+| [03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb) | 프로젝트 종료 후 채널 수 효과와 특정 채널 효과를 재점검한 고도화본 |
 
 ## 03_pipeline_reference
 
@@ -40,11 +40,11 @@ Myun_EDA/
 
 | 파일 | 설명 |
 |---|---|
-| [01_preprocessed_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/03_pipeline_reference/01_preprocessed_final.ipynb) | 공통 전처리 파일 성격 |
-| [02_eda_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/03_pipeline_reference/02_eda_final.ipynb) | 공통 EDA 파일 성격 |
-| [preprocessed_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/03_pipeline_reference/preprocessed_final.ipynb) | 초기 전처리 작업 기록 |
-| [stage1_copy.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/03_pipeline_reference/stage1_copy.ipynb) | Soyun stage1과 코드 차이가 있어 보관 |
-| [stage2_copy.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/03_pipeline_reference/stage2_copy.ipynb) | Soyun stage2와 코드 차이가 있어 보관 |
+| [01_preprocessed_final.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/03_pipeline_reference/01_preprocessed_final.ipynb) | 공통 전처리 파일 성격 |
+| [02_eda_final.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/03_pipeline_reference/02_eda_final.ipynb) | 공통 EDA 파일 성격 |
+| [preprocessed_final.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/03_pipeline_reference/preprocessed_final.ipynb) | 초기 전처리 작업 기록 |
+| [stage1_copy.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/03_pipeline_reference/stage1_copy.ipynb) | Soyun stage1과 코드 차이가 있어 보관 |
+| [stage2_copy.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/03_pipeline_reference/stage2_copy.ipynb) | Soyun stage2와 코드 차이가 있어 보관 |
 
 ## 04_outputs
 
@@ -52,7 +52,7 @@ Myun_EDA/
 
 | 파일 | 설명 |
 |---|---|
-| [funnel_instance.csv](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/04_outputs/funnel_instance.csv) | 루트 `dataset/funnel_instance.csv`와 해시가 달라 보존 |
+| [funnel_instance.csv](/Users/yoonseokim/starbucks_project/Myun_EDA/04_outputs/funnel_instance.csv) | 루트 `dataset/funnel_instance.csv`와 해시가 달라 보존 |
 
 ## 삭제한 파일
 

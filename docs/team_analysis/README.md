@@ -6,10 +6,10 @@
 
 | 팀원 폴더 | 역할 |
 |---|---|
-| [Soyun_EDA](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/team_analysis/Soyun_EDA) | 프로젝트 계획, 분석 과정 정리, stage별 분석 |
-| [chanhui_EDA](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/team_analysis/chanhui_EDA) | 전처리 실험 및 final_analysis 노트북 |
-| [Soohan_EDA](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/team_analysis/Soohan_EDA) | 초기 데이터 구조 확인 |
-| [pjh_EDA](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/team_analysis/pjh_EDA) | 초기 전처리 실험 |
+| [Soyun_EDA](/Users/yoonseokim/starbucks_project/team_analysis/Soyun_EDA) | 프로젝트 계획, 분석 과정 정리, stage별 분석 |
+| [chanhui_EDA](/Users/yoonseokim/starbucks_project/team_analysis/chanhui_EDA) | 전처리 실험 및 final_analysis 노트북 |
+| [Soohan_EDA](/Users/yoonseokim/starbucks_project/team_analysis/Soohan_EDA) | 초기 데이터 구조 확인 |
+| [pjh_EDA](/Users/yoonseokim/starbucks_project/team_analysis/pjh_EDA) | 초기 전처리 실험 |
 
 ## 기여도 설명 원칙
 

@@ -1,6 +1,6 @@
 # 주요 인사이트
 
-이 문서는 최종 노트북 [03_analysis_final.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/submit/Final/03_analysis_final.ipynb)과 프로젝트 정리 문서 [Soyun_EDA/과정.md](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/team_analysis/Soyun_EDA/과정.md)를 기준으로 작성했습니다.
+이 문서는 최종 노트북 [03_analysis_final.ipynb](/Users/yoonseokim/starbucks_project/submit/Final/03_analysis_final.ipynb)과 프로젝트 정리 문서 [Soyun_EDA/과정.md](/Users/yoonseokim/starbucks_project/team_analysis/Soyun_EDA/과정.md)를 기준으로 작성했습니다.
 
 ## 1. 오퍼는 먼저 열람되어야 효과를 낸다
 
@@ -26,13 +26,13 @@
 
 최종 해석은 **채널 수는 소셜/모바일 포함 여부의 대리지표일 수 있다**는 방향이 더 안전합니다. 이 보완은 분석 신뢰도를 높이는 중요한 포인트입니다.
 
-이 채널별/채널수별 분석은 본인 기여입니다. 특히 프로젝트 종료 후 [03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb)에서 채널 수 효과가 특정 채널 포함 여부와 얽혀 있는지 추가 확인했습니다.
+이 채널별/채널수별 분석은 본인 기여입니다. 특히 프로젝트 종료 후 [03_analysis_final_channel_enhanced.ipynb](/Users/yoonseokim/starbucks_project/Myun_EDA/02_channel_analysis/03_analysis_final_channel_enhanced.ipynb)에서 채널 수 효과가 특정 채널 포함 여부와 얽혀 있는지 추가 확인했습니다.
 
 ## 5. 고객 세그먼트는 타겟팅 전략의 방향을 준다
 
 최종 분석에는 소득, 성별, 연령대, 가입 시점별 반응 차이가 포함되어 있습니다. 고소득층, 여성, 고연령층, 장기 회원에서 오퍼 반응이 더 강하게 나타나는 흐름이 확인되었습니다.
 
-다만 이 부분은 본인 개인 기여로 표시하지 않습니다. 본인 기여 정리는 [myun-contribution.md](/Users/yoonseokim/2025_main_bootcamp/3rd_practice_project/docs/myun-contribution.md)를 기준으로 분리했습니다.
+다만 이 부분은 본인 개인 기여로 표시하지 않습니다. 본인 기여 정리는 [myun-contribution.md](/Users/yoonseokim/starbucks_project/docs/myun-contribution.md)를 기준으로 분리했습니다.
 
 ## 면접에서 강조할 수 있는 포인트
 
