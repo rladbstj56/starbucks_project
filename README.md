@@ -106,6 +106,12 @@ funnel_instance.csv / funnel_instance_full.csv / tableau_df_final.csv
 └── README.md
 ```
 
+## 데이터 관리 정책
+
+CSV와 ZIP 데이터 파일은 `.gitignore`로 Git 추적 대상에서 제외합니다. 로컬 작업 폴더에는 `dataset/`과 `submit/dataset/` 데이터가 남아 있지만, GitHub에서는 노트북·문서·재현 경로를 중심으로 관리합니다.
+
+재현 기준은 [submit/Final](submit/Final) 노트북 3개와 해당 노트북이 기대하는 `submit/dataset/` 구조입니다. 데이터를 새로 받거나 복원할 때는 [docs/execution-guide.md](docs/execution-guide.md)의 경로 기준을 맞춘 뒤 노트북을 순서대로 실행합니다.
+
 ## 최종 노트북
 
 | 순서 | 파일 | 역할 |
